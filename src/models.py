@@ -69,7 +69,6 @@ class Comment(Base):
     post_id=Column(Integer, ForeignKey('post.id'))
 
 
-
     def to_dict(self):
         return {}
 
